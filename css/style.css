@@ -9,8 +9,9 @@ body {
 }
 
 main {
-  width: 60%;
-  margin: 0 auto;
+  min-width: 600px;
+  max-width: 900px;
+  margin: 10px auto 0 auto;
   background-color: aliceblue;
 }
 
@@ -20,6 +21,7 @@ main {
   text-align: right;
   height: 60px;
   line-height: 60px;
+  background-color: bisque;
 }
 
 #header h1 {
@@ -27,15 +29,38 @@ main {
 }
 
 #content {
-  background-color: aliceblue;
-  padding-top: 30px;
+  background-color: #d2eaff;
   border-top: 1px solid #ccc;
+  padding-bottom: 10px;
 }
 
 #content .assembly {
   display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
 }
 
-#content img {
-  width: 50%;
+.image, .text {
+  flex: 1;
+}
+
+.text {
+  padding-top: 30px;
+}
+
+.header-text {
+  font-weight: bold;
+}
+
+img.img-responsive {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  opacity: 1;
+  transition: .2s opacity;
+}
+
+img.img-responsive:hover {
+  opacity: .9;
 }
