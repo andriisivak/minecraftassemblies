@@ -13,6 +13,7 @@ main {
   max-width: 900px;
   margin: 10px auto 0 auto;
   background-color: aliceblue;
+  box-shadow: 0 2px 10px 2px #333;
 }
 
 #header {
@@ -58,11 +59,12 @@ img.img-responsive {
   margin: 0 auto;
   border-radius: 10px;
   opacity: 1;
-  transition: .2s opacity;
+  transition: .2s all;
 }
 
 img.img-responsive:hover {
   opacity: .9;
+  box-shadow: 0 2px 10px 2px #333;
 }
 
 /* PAGES */
