@@ -51,6 +51,7 @@ main {
 
 .header-text {
   font-weight: bold;
+  margin: 5px 0;
 }
 
 img.img-responsive {
@@ -92,4 +93,18 @@ img.img-responsive-details {
   display: block;
   margin: 0 auto;
   border-radius: 10px;
+}
+
+.text-info p a {
+  text-decoration: none;
+  display: block;
+  margin: 10px 0 0 0;
+  color: #79563A;
+  font-weight: bold;
+  transition: .2s color;
+}
+
+.text-info p a:hover {
+  color: #111;
+  text-decoration: underline;
 }
