@@ -61,10 +61,16 @@ main {
   padding-top: 30px;
 }
 
-.header-text {
+.header-text, .header-text a {
   font-weight: bold;
-  margin: 5px 0;
+  margin: 10px 0;
   color: #5f4027;
+  text-decoration: none;
+  transition: .2s color;
+}
+
+.header-text a:hover {
+  color: #111;
 }
 
 img.img-responsive {
@@ -109,6 +115,10 @@ img.img-responsive-details {
 }
 
 p.version {
+  margin: 5px 0;
+}
+
+.mods {
   margin: 10px 0;
 }
 
