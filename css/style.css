@@ -86,3 +86,10 @@ a.back-to-home {
 a.back-to-home:hover {
   background-color: #8d6546;
 }
+
+img.img-responsive-details {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
