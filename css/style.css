@@ -27,12 +27,24 @@ main {
 
 #header h1 {
   margin-right: 30px;
+  font-size: 32px;
+}
+
+#header h1 a {
+  color: #5f4027;
+  text-decoration: none;
+  transition: .2s color;
+}
+
+#header h1 a:hover {
+  color: #111;
 }
 
 #content {
   background-color: #d2eaff;
   border-top: 1px solid #ccc;
   padding-bottom: 10px;
+  font-size: 16px;
 }
 
 #content .assembly {
@@ -52,6 +64,7 @@ main {
 .header-text {
   font-weight: bold;
   margin: 5px 0;
+  color: #5f4027;
 }
 
 img.img-responsive {
@@ -95,11 +108,26 @@ img.img-responsive-details {
   border-radius: 10px;
 }
 
+p.version {
+  margin: 10px 0;
+}
+
+.mods span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.mods ul {
+  font-size: 14px;
+  padding: 0 0 0 30px;
+  list-style-type: disc;
+}
+
 .text-info p a {
   text-decoration: none;
   display: block;
   margin: 10px 0 0 0;
-  color: #79563A;
+  color: #5f4027;
   font-weight: bold;
   transition: .2s color;
 }
