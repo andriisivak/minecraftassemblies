@@ -42,9 +42,9 @@ main {
 
 #content {
   background-color: #d2eaff;
-  border-top: 1px solid #ccc;
   padding-bottom: 10px;
   font-size: 16px;
+  border-top: 1px solid #ccc;
 }
 
 #content .assembly {
@@ -145,4 +145,19 @@ p.version {
 .text-info p a:hover {
   color: #111;
   text-decoration: underline;
+}
+
+#footer {
+  width: 100%;
+  clear: both;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  background-color: bisque;
+  border-top: 1px solid #ccc;
+}
+
+#footer span {
+  font-size: 14px;
+  color: #5f4027;
 }
